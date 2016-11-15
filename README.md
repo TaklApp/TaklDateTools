@@ -7,3 +7,5 @@ Swift 3 conversion of CupertinoYankee pod and Swift 3 conversion of select metho
 - isEarlier/isLater/isEqualTo other date
 - add and subtract minutes/hours/days/months
 - minutes/daysFrom other date
+
+Please view tests for examples how to use these helper methods.
