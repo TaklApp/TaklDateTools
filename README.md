@@ -45,10 +45,10 @@ import TaklDateTools
 ## Usage example
 
 ```swift
-import EZSwiftExtensions
-ez.detectScreenShot { () -> () in
-    print("User took a screen shot")
-}
+var date = Date(timeIntervalSince1970: 0)
+var date2 = Date(timeIntervalSince1970: 120)
+
+date2.minutesFrom(date: date) //2
 ```
 
 ## Contribute
@@ -59,7 +59,7 @@ We would love for you to contribute to **Takl+Date.swift**, check the ``LICENSE`
 
 Takl – [@takl_app](https://twitter.com/takl_app)
 
-Distributed under the XYZ license. See ``LICENSE`` for more information.
+Distributed under the MIT license. See ``LICENSE`` for more information.
 
 [https://github.com/TaklApp/](https://github.com/TaklApp/)
 
