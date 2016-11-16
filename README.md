@@ -28,7 +28,7 @@ You can use [CocoaPods](http://cocoapods.org/) to install `TaklDateTools` by add
 ```ruby
 platform :ios, '8.0'
 use_frameworks!
-pod 'TaklDateTools'
+pod 'TaklDateTools', :git => 'https://github.com/TaklApp/TaklDateTools.git'
 ```
 
 To get the full benefits import `TaklDateTools` wherever you import UIKit
